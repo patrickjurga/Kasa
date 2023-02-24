@@ -19,4 +19,13 @@
 
 .navbar__link-propos {
     margin-left: 3rem;
+    text-decoration: none;
+}
+
+.navbar__link-Home {
+    text-decoration: none;
+}
+
+.navbar__visited:visited {
+    color: #FF6060;
 }
