@@ -1,0 +1,30 @@
+.Host__Container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Host__Picture {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.Host__Picture img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.Host__Name {
+    width: 70px;
+
+    font-size: 1.1rem;
+    
+    color: #FF6060;
+    
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: end;
+}

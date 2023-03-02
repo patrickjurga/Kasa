@@ -1,22 +1,30 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import Home from './pages/Home/Home';
 import About from './pages/About/About';
+import ErrorPage from "./pages/Error/Error";
+import Apartment from './pages/Apartment/Apartment';
 import "./styles/index.css";
 
-ReactDOM.render(
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/about",
+    element: <About />
+  },
+  {
+    path: "/Apartment/:id",
+    element: <Apartment />
+  }
+])
+
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/About">
-          <About />
-        </Route>
-      </Switch>
-    </Router>
-  </React.StrictMode>,
-  document.getElementById('root')
-)
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);

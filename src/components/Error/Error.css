@@ -1,0 +1,37 @@
+.Error__Container {
+    max-width: 1240px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+
+    color: #FF6060;
+}
+
+.Error__number {
+    font-size: 20rem;
+    font-weight: bold;
+    margin-top: -40px;
+    margin-bottom: 0;
+}
+
+.Error__para {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.Error__link {
+    text-decoration: none;
+    font-size: 1.3rem;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    display: block;
+
+}
+
+.Error__link:visited {
+    color: #FF6060;
+}

@@ -1,0 +1,42 @@
+.Information__Container {
+    max-width: 1240px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    
+    color: #FF6060;
+}
+
+.Information__Container h2 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.Information__Container p {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.Information__Container span {
+    font-size: 0.8rem;
+
+    margin-right: 10px;
+    padding: 5px 25px;
+
+    border-radius: 10px;
+
+    background-color: #FF6060;
+
+    color: white;
+}
+
+.Information__Container .tags {
+    margin-top: 22px;
+}
+
+
+
+

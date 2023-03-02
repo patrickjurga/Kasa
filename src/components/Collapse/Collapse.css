@@ -1,0 +1,107 @@
+.Collapse__Container {
+    max-width: 1000px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+    border-radius: 0px 0px 10px 10px;
+
+    background-color: #F7F7F7;
+}
+
+.Collapse__Container--Apartment {
+    max-width: 1240px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    
+}
+
+.Collapse__Apartment {
+    width: 48%;
+}
+
+.Collapse__Apartment p{
+    font-size: 1.2rem;
+}
+.Collapse__Apartment li {
+    list-style: none;
+}
+
+.Collapse__EquipmentsList {
+    font-size: 1rem;
+}
+
+
+
+.Collapse__header {
+    background-color: #FF6060;
+    border-radius: 10px;
+    color: white;
+
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.Collapse__header:hover {
+    cursor: pointer;
+}
+
+.Collapse__header img {
+    width: 25px;
+    height: 17px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+
+    padding-right: 20px;
+}
+
+.Collapse__title {
+    padding-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about__container {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.Collapse__para {
+    color: #FF6060;
+    font-size: 1.5rem;
+
+    margin: 0;
+    padding: 20px;
+}
+
+.Collapse__content {
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    max-height: 0;
+  }
+  
+  .Collapse__content--expanded {
+    
+    max-height: 210px; /* une hauteur suffisamment grande pour afficher tout le contenu */
+  }
+
+  .Chevron {
+    transition: transform 0.3s ease-in-out;
+    transform-origin: 25%;
+  }
+  
+  .Rotate {
+    transform: rotate(180deg);
+  }
+

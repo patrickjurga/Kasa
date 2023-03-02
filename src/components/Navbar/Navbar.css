@@ -17,12 +17,12 @@
     display: flex;
 }
 
-.navbar__link-propos {
+.navbar__link--About {
     margin-left: 3rem;
     text-decoration: none;
 }
 
-.navbar__link-Home {
+.navbar__link--Home {
     text-decoration: none;
 }
 
