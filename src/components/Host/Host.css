@@ -28,3 +28,24 @@
     margin-bottom: auto;
     text-align: end;
 }
+
+@media screen and (max-width: 1300px){
+
+    .Information__host {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .Host__Name {
+        text-align: start;
+        font-size: 1.1rem;
+    }
+
+    .Host__Picture {
+        margin-left: 0;
+        width: 50px;
+        height: 50px;
+    }
+
+}

@@ -35,3 +35,25 @@
 .Error__link:visited {
     color: #FF6060;
 }
+
+@media screen and (max-width: 1240px){
+
+    .Error__number {
+        font-size: 14rem;
+        margin-top: 30px;
+    }
+
+    .Error__para {
+        font-size: 1.8rem;
+
+    }
+
+    .Error__Container {
+        width: 90%;
+    }
+
+    .Error__link {
+        margin-bottom: 170px;
+    }
+ 
+ }

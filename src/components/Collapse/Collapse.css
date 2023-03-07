@@ -46,6 +46,8 @@
     border-radius: 10px;
     color: white;
 
+    width: 100%;
+
     height: 50px;
 
     display: flex;
@@ -104,4 +106,69 @@
   .Rotate {
     transform: rotate(180deg);
   }
+
+  @media screen and (max-width: 1300px){
+
+    .Collapse__Container {
+        max-width: 100%;
+    }
+
+    .about__container {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Collapse__para {
+        color: #FF6060;
+        font-size: 1.5rem;
+    
+        margin: 0;
+        padding: 20px;
+    }
+
+    .Collapse__Container--Apartment {
+        max-width: 90%;
+    }
+
+    .Collapse__Apartment p{
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 812px){
+
+    .Collapse__para {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    .Collapse__header {
+        height: 35px;
+    }
+
+    .Collapse__title {
+        font-size: 1.4rem;
+    }
+
+    .Collapse__header img {
+        width: 20px;
+        height: 14px;
+    }
+
+    .Collapse__Container--Apartment {
+        max-width: 90%;
+        display: block;
+    }
+
+    .Collapse__Apartment {
+        width: 100%;
+    }
+
+    .about__container {
+        margin-bottom: 100px;
+    }
+
+}
 

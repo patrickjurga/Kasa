@@ -8,9 +8,11 @@ function ErrorPage() {
     console.error(error);
 
     return (
-        <div>
+        <div className="page__container">
             <Navbar />
-            <Error />
+            <div className="page__content">
+                <Error />
+            </div>
             <Footer />
         </div>
     );

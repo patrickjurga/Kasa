@@ -20,12 +20,43 @@
 .navbar__link--About {
     margin-left: 3rem;
     text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar__link--About:hover {
+    scale: 1.1;
 }
 
 .navbar__link--Home {
     text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar__link--Home:hover {
+    scale: 1.1;
 }
 
 .navbar__visited:visited {
     color: #FF6060;
 }
+
+
+@media screen and (max-width: 1300px){
+
+    .navbar__Contrainer {
+        width: 90%;
+    }
+
+   .navbar__link--About {
+    margin-left: 1.5rem;
+}
+
+}
+
+@media screen and (max-width: 812px){
+
+    .navbar__link-logo img {
+        width: 140px;
+    }
+ 
+ }

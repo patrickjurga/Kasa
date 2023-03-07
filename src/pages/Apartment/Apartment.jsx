@@ -44,7 +44,7 @@ function Apartment() {
 			<div>
 				{PickedAppart && <Info infoTitle={PickedAppart.title} infoLocation={PickedAppart.location} infoTag={PickedAppart.tags} />}
 			</div>
-			<div>
+			<div className="Information__host">
 				{PickedAppart && <Host  hostImage={PickedAppart.host.picture} hostName={PickedAppart.host.name} />}
 				{PickedAppart && <Rating rating={PickedAppart.rating} />}
 			</div>
