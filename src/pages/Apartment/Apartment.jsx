@@ -17,16 +17,16 @@ function Apartment() {
 	const [PickedAppart, setPickedAppart] = useState();
 	useEffect(() => {
 		const getData = async () => {
-			const res = await axios.get("/logements.json");
-			const picked = res.data.find(({ id }) => id === params.id);
-			res.data.map(() => setPickedAppart(picked));
-			if (picked === undefined) {
-				navigate("/Error", { state: { message: "Can't get data" } });
-			}
+		  const res = await axios.get("/logements.json");
+		  const picked = res.data.find(({ id }) => id === params.id);
+		  if (picked === undefined) {
+			navigate("/Error", { state: { message: "Can't get data" } });
+		  } else {
+			setPickedAppart(picked);
+		  }
 		};
 		getData();
-		
-	}, [navigate, params.id]);
+	  }, [navigate, params.id]);
 
 	const equipments = PickedAppart && PickedAppart.equipments;
 	const EquipmentsList = PickedAppart &&

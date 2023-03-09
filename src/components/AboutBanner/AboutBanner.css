@@ -4,7 +4,7 @@
     margin-right: auto;
     height: 223px;
     border-radius: 30px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/images/ABOUTBANNER.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/images/ABOUTBANNER.jpg");
 }
 
 @media screen and (max-width: 1300px){

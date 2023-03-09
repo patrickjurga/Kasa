@@ -94,7 +94,6 @@
   }
   
   .Collapse__content--expanded {
-    
     max-height: 210px; /* une hauteur suffisamment grande pour afficher tout le contenu */
   }
 
