@@ -65,6 +65,11 @@
         padding: 4px 20px;
     }
 
+    .tags span {
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
 }
 
 

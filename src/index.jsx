@@ -7,7 +7,7 @@ import ErrorPage from "./pages/Error/Error";
 import Apartment from './pages/Apartment/Apartment';
 import "./assets/styles/index.css";
 
-const router = createBrowserRouter([
+const router = createBrowserRouter([ // fonction qui crée un objet de routage contenant toutes les routes
   {
     path: "/",
     element: <Home />,
@@ -30,8 +30,10 @@ const router = createBrowserRouter([
   }
 ])
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById("root")).render( // Crée un point d'entrée dans l'arbre DOM en utilisant la méthode createRoot de ReactDOM
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+
+ // composant qui sert à gérer le routage dans notre application React

@@ -77,6 +77,9 @@
         height: 330px;
     }
 
+    .Carousel__counter {
+        display: none;
+    }
 }
 
 
