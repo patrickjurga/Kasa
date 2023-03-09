@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Error from "../../components/Error/Error";
 import Footer from "../../components/Footer/Footer"
 
-function ErrorPage() {
+function Error404() {
     const error = useRouteError();
     console.error(error);
 
@@ -18,4 +18,4 @@ function ErrorPage() {
     );
 }
 
-export default ErrorPage;
+export default Error404;
